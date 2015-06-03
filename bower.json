@@ -1,0 +1,19 @@
+{
+  "name": "roster-parser",
+  "version": "0.0.0",
+  "authors": [
+    "Pepijn Senders <p.senders92@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
