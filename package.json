@@ -15,7 +15,11 @@
     "bower": "^1.4.1",
     "excel-parser": "^0.2.2",
     "express": "^4.12.4",
+    "ical-generator": "^0.2.2",
     "morgan": "^1.5.3",
-    "mustache-express": "^1.2.1"
+    "multer": "^0.1.8",
+    "mustache-express": "^1.2.1",
+    "node-xlsx": "^0.5.1",
+    "q": "^1.4.1"
   }
 }

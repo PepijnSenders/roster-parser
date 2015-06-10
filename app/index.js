@@ -4,10 +4,12 @@ module.exports = (function() {
       app = express(),
       logger = require('morgan'),
       bodyParser = require('body-parser'),
+      multer = require('multer'),
       mustacheExpress = require('mustache-express');
 
   app.use(logger('dev'));
   app.use(bodyParser.json());
+  app.use(multer({ dest: __dirname + '/storage' }));
 
   app.engine('mustache', mustacheExpress());
   app.set('view engine', 'mustache');

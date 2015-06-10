@@ -16,9 +16,23 @@
     <div class="container">
       <h1>Hey Sebastian</h1>
       <p>Upload your roster file here:</p>
+
+      <form class="form-horizontal" role="form" method="POST" action="parse" enctype="multipart/form-data">
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="file">
+            File:
+          </label>
+          <div class="col-sm-9">
+            <input type="file" class="form-control" name="file" id="file">
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-success btn-lg">Do the magic!</button>
+      </form>
     </div>
   </div>
 
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
   <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
